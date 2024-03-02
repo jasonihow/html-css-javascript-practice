@@ -1,0 +1,15 @@
+.frame{
+    display:flex; /* 水平排列 */
+}
+
+.left{
+    flex:none;
+    width:1100px;
+    background-color: red;
+}
+
+.right{
+    width:30%;
+    flex:auto;/*設定auto後再設定寬度就只會以auto執行 */
+    background-color: green;
+}
